@@ -5,7 +5,6 @@
     changed = require('gulp-changed');
 
 var paths = {
-    bower: "./bower_components/",
     npm: "./node_modules/",
     content: "./Content/",
     lib: "./Scripts/lib/",
