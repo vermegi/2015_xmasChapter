@@ -5,6 +5,7 @@
     changed = require('gulp-changed');
 
 var paths = {
+    bower: "./bower_components/",
     npm: "./node_modules/",
     content: "./Content/",
     lib: "./Scripts/lib/",
@@ -18,7 +19,7 @@ gulp.task('bower-install', function () {
 });
 
 gulp.task('bower-files', ['bower-install'], function() {
-    return gulp.src(mainBowerFiles())
+    return gulp.src(mainBowerFiles(), { base: paths.bower })
         .pipe(changed(paths.lib))
         .pipe(gulp.dest(paths.lib));
 });
