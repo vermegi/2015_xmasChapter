@@ -84,6 +84,17 @@
     <Content Include="default.html" />
     <Content Include="Global.asax" />
     <Content Include="gulpfile.js" />
+    <Content Include="jasmine\lib\jasmine-2.3.4\boot.js" />
+    <Content Include="jasmine\lib\jasmine-2.3.4\console.js" />
+    <Content Include="jasmine\lib\jasmine-2.3.4\jasmine-html.js" />
+    <Content Include="jasmine\lib\jasmine-2.3.4\jasmine.css" />
+    <Content Include="jasmine\lib\jasmine-2.3.4\jasmine.js" />
+    <Content Include="jasmine\lib\jasmine-2.3.4\jasmine_favicon.png" />
+    <Content Include="jasmine\SpecRunner.html" />
+    <Content Include="jasmine\spec\PlayerSpec.js" />
+    <Content Include="jasmine\spec\SpecHelper.js" />
+    <Content Include="jasmine\src\Player.js" />
+    <Content Include="jasmine\src\Song.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -97,6 +108,7 @@
     <Content Include="packages.config" />
     <Content Include="bower.json" />
     <Content Include="package.json" />
+    <Content Include="jasmine\MIT.LICENSE" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
