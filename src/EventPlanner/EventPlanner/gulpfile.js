@@ -4,7 +4,8 @@
     mainBowerFiles = require('main-bower-files'),
     changed = require('gulp-changed'),
     jasmine = require('gulp-jasmine-browser'),
-    watch = require('gulp-watch');
+    watch = require('gulp-watch')
+    Server = require('karma').Server;
 
 var paths = {
     npm: "./node_modules/",
@@ -36,6 +37,13 @@ gulp.task('test', function() {
 
 gulp.task('watch', function() {
     gulp.watch(filesfortest, ['test']);
+});
+
+gulp.task('ktest', function(done) {
+    return new Server({
+        configFile: __dirname + '/karma.conf.js'//,
+        //singleRun: true
+    }, done).start();
 });
 
 gulp.task('default', ['bower-files'], function () { });
