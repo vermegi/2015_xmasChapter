@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Player" timestamp="2016-01-15T12:49:57" hostname="localhost" time="0.007" errors="0" tests="2" skipped="0" disabled="0" failures="4">
+  <testcase classname="Player" name="should be able to play a Song" time="0.002">
+   <failure type="exception" message="ReferenceError: Player is not defined"><![CDATA[ReferenceError: Player is not defined
+    at Object.<anonymous> (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\jasmine\spec\PlayerSpec.js:12:18)
+    at attemptSync (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1886:24)
+    at QueueRunner.run (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1874:9)
+    at QueueRunner.execute (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)
+    at Spec.Env.queueRunnerFactory (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:697:35)
+    at Spec.execute (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:359:10)
+    at Object.fn (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2479:37)
+    at attemptAsync (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at QueueRunner.execute (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)]]>
+   </failure>
+   <failure type="exception" message="TypeError: Cannot read property &apos;play&apos; of undefined"><![CDATA[TypeError: Cannot read property 'play' of undefined
+    at Object.<anonymous> (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\jasmine\spec\PlayerSpec.js:17:11)
+    at attemptSync (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1886:24)
+    at QueueRunner.run (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1874:9)
+    at QueueRunner.execute (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)
+    at Spec.Env.queueRunnerFactory (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:697:35)
+    at Spec.execute (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:359:10)
+    at Object.fn (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2479:37)
+    at attemptAsync (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at QueueRunner.execute (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Player" name="tells the current song if the user has made it a favorite" time="0">
+   <failure type="exception" message="ReferenceError: Player is not defined"><![CDATA[ReferenceError: Player is not defined
+    at Object.<anonymous> (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\jasmine\spec\PlayerSpec.js:12:18)
+    at attemptSync (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1886:24)
+    at QueueRunner.run (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1874:9)
+    at QueueRunner.execute (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)
+    at Spec.Env.queueRunnerFactory (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:697:35)
+    at Spec.execute (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:359:10)
+    at Object.fn (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2479:37)
+    at attemptAsync (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1898:16]]>
+   </failure>
+   <failure type="exception" message="Error: spyOn could not find an object to spy upon for persistFavoriteStatus()"><![CDATA[Error: spyOn could not find an object to spy upon for persistFavoriteStatus()
+    at SpyRegistry.spyOn (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1984:15)
+    at Env.spyOn (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:776:32)
+    at jasmineInterface.spyOn (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3427:18)
+    at Object.<anonymous> (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\jasmine\spec\PlayerSpec.js:46:5)
+    at attemptSync (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1886:24)
+    at QueueRunner.run (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1874:9)
+    at QueueRunner.execute (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)
+    at Spec.Env.queueRunnerFactory (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:697:35)
+    at Spec.execute (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:359:10)
+    at Object.fn (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2479:37)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+ <testsuite name="Player.when song has been paused" timestamp="2016-01-15T12:49:57" hostname="localhost" time="0.003" errors="0" tests="2" skipped="0" disabled="0" failures="6">
+  <testcase classname="Player.when song has been paused" name="should indicate that the song is currently paused" time="0.002">
+   <failure type="exception" message="ReferenceError: Player is not defined"><![CDATA[ReferenceError: Player is not defined
+    at Object.<anonymous> (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\jasmine\spec\PlayerSpec.js:12:18)
+    at attemptSync (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1886:24)
+    at QueueRunner.run (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1874:9)
+    at QueueRunner.execute (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)
+    at Spec.Env.queueRunnerFactory (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:697:35)
+    at Spec.execute (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:359:10)
+    at Object.fn (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2479:37)
+    at attemptAsync (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at QueueRunner.execute (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)]]>
+   </failure>
+   <failure type="exception" message="TypeError: Cannot read property &apos;play&apos; of undefined"><![CDATA[TypeError: Cannot read property 'play' of undefined
+    at Object.<anonymous> (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\jasmine\spec\PlayerSpec.js:26:13)
+    at attemptSync (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1886:24)
+    at QueueRunner.run (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1874:9)
+    at QueueRunner.execute (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)
+    at Spec.Env.queueRunnerFactory (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:697:35)
+    at Spec.execute (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:359:10)
+    at Object.fn (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2479:37)
+    at attemptAsync (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at QueueRunner.execute (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)]]>
+   </failure>
+   <failure type="exception" message="TypeError: Cannot read property &apos;isPlaying&apos; of undefined"><![CDATA[TypeError: Cannot read property 'isPlaying' of undefined
+    at Object.<anonymous> (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\jasmine\spec\PlayerSpec.js:31:20)
+    at attemptSync (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1886:24)
+    at QueueRunner.run (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1874:9)
+    at QueueRunner.execute (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)
+    at Spec.Env.queueRunnerFactory (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:697:35)
+    at Spec.execute (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:359:10)
+    at Object.fn (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2479:37)
+    at attemptAsync (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at QueueRunner.execute (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Player.when song has been paused" name="should be possible to resume" time="0">
+   <failure type="exception" message="ReferenceError: Player is not defined"><![CDATA[ReferenceError: Player is not defined
+    at Object.<anonymous> (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\jasmine\spec\PlayerSpec.js:12:18)
+    at attemptSync (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1886:24)
+    at QueueRunner.run (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1874:9)
+    at QueueRunner.execute (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)
+    at Spec.Env.queueRunnerFactory (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:697:35)
+    at Spec.execute (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:359:10)
+    at Object.fn (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2479:37)
+    at attemptAsync (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1898:16]]>
+   </failure>
+   <failure type="exception" message="TypeError: Cannot read property &apos;play&apos; of undefined"><![CDATA[TypeError: Cannot read property 'play' of undefined
+    at Object.<anonymous> (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\jasmine\spec\PlayerSpec.js:26:13)
+    at attemptSync (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1886:24)
+    at QueueRunner.run (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1874:9)
+    at QueueRunner.execute (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)
+    at Spec.Env.queueRunnerFactory (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:697:35)
+    at Spec.execute (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:359:10)
+    at Object.fn (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2479:37)
+    at attemptAsync (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1898:16]]>
+   </failure>
+   <failure type="exception" message="TypeError: Cannot read property &apos;resume&apos; of undefined"><![CDATA[TypeError: Cannot read property 'resume' of undefined
+    at Object.<anonymous> (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\jasmine\spec\PlayerSpec.js:38:13)
+    at attemptSync (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1886:24)
+    at QueueRunner.run (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1874:9)
+    at QueueRunner.execute (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)
+    at Spec.Env.queueRunnerFactory (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:697:35)
+    at Spec.execute (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:359:10)
+    at Object.fn (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2479:37)
+    at attemptAsync (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1898:16]]>
+   </failure>
+  </testcase>
+ </testsuite>
+ <testsuite name="Player.#resume" timestamp="2016-01-15T12:49:57" hostname="localhost" time="0.002" errors="0" tests="1" skipped="0" disabled="0" failures="2">
+  <testcase classname="Player.#resume" name="should throw an exception if song is already playing" time="0.001">
+   <failure type="exception" message="ReferenceError: Player is not defined"><![CDATA[ReferenceError: Player is not defined
+    at Object.<anonymous> (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\jasmine\spec\PlayerSpec.js:12:18)
+    at attemptSync (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1886:24)
+    at QueueRunner.run (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1874:9)
+    at QueueRunner.execute (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)
+    at Spec.Env.queueRunnerFactory (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:697:35)
+    at Spec.execute (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:359:10)
+    at Object.fn (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2479:37)
+    at attemptAsync (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at QueueRunner.execute (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)]]>
+   </failure>
+   <failure type="exception" message="TypeError: Cannot read property &apos;play&apos; of undefined"><![CDATA[TypeError: Cannot read property 'play' of undefined
+    at Object.<anonymous> (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\jasmine\spec\PlayerSpec.js:57:13)
+    at attemptSync (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1886:24)
+    at QueueRunner.run (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1874:9)
+    at QueueRunner.execute (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)
+    at Spec.Env.queueRunnerFactory (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:697:35)
+    at Spec.execute (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:359:10)
+    at Object.fn (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2479:37)
+    at attemptAsync (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at QueueRunner.execute (D:\Projects\QFrame\training\temp\2015_xmasChapter\src\EventPlanner\EventPlanner\node_modules\gulp-jasmine\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1859:10)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+</testsuites>

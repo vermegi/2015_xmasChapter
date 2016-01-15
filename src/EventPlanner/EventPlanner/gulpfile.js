@@ -2,7 +2,9 @@
     del = require('del'),
     bower = require('gulp-bower'),
     mainBowerFiles = require('main-bower-files'),
-    changed = require('gulp-changed');
+    changed = require('gulp-changed'),
+    jasmine = require('gulp-jasmine-browser'),
+    watch = require('gulp-watch');
 
 var paths = {
     npm: "./node_modules/",
@@ -21,6 +23,19 @@ gulp.task('bower-files', ['bower-install'], function() {
     return gulp.src(mainBowerFiles())
         .pipe(changed(paths.lib))
         .pipe(gulp.dest(paths.lib));
+});
+
+var filesfortest = ['jasmine/src/**/*.js', 'jasmine/spec/**/*.js'];
+
+gulp.task('test', function() {
+    return gulp
+        .src(filesfortest)
+        .pipe(jasmine.specRunner({console:true}))
+        .pipe(jasmine.headless());
+});
+
+gulp.task('watch', function() {
+    gulp.watch(filesfortest, ['test']);
 });
 
 gulp.task('default', ['bower-files'], function () { });
