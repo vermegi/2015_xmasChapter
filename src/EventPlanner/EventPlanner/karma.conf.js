@@ -3,13 +3,13 @@
         frameworks: ['jasmine'],
         reporters: ['spec'],
         browsers: [
-            'PhantomJS',
-            'Chrome',
-            'IE8',
-            'IE9',
-            'IE10',
-            'IE',
-            'Firefox'
+            'PhantomJS'//,
+            //'Chrome',
+            //'IE8',
+            //'IE9',
+            //'IE10',
+            //'IE',
+            //'Firefox'
         ],
         files: [
           'Scripts/lib/jquery/dist/jquery.js',
