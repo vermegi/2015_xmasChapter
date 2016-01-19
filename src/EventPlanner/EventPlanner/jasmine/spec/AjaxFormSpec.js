@@ -1,16 +1,22 @@
 ﻿describe('an AJAX form', function () {
 
-    var $el, subject;
+    var $el, subject, successfunc;
     beforeEach(function() {
         $el = $('<form action="/foo" method="post" />');
-        subject = new AjaxForm($el);
+        successfunc = jasmine.createSpy('successfunc');
+        subject = new AjaxForm($el, successfunc);
     });
 
     describe('when the form is submitted', function() {
 
-        var submitEvent;
+        var submitEvent, dataFromService;
         beforeEach(function () {
-            spyOn($, 'ajax');
+            dataFromService = { yada: 'dada' };
+            spyOn($, 'ajax').and.callFake(function (req) {
+                var d = $.Deferred();
+                d.resolve(dataFromService);
+                return d.promise();
+            });
             submitEvent = $.Event('submit');
             subject.$form.trigger(submitEvent);
         });
@@ -26,6 +32,10 @@
             it('should go to /foo', function() {
                 expect($.ajax.calls.mostRecent().args[0].url.indexOf('/foo')).not.toBe(-1);
             });
+        });
+
+        it('triggers a success event', function() {
+            expect(successfunc).toHaveBeenCalledWith(dataFromService);
         });
     });
 });
