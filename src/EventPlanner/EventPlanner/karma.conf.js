@@ -13,6 +13,7 @@
         ],
         files: [
           'Scripts/lib/jquery/dist/jquery.js',
+          'Scripts/lib/knockout.js',
           'jasmine/src/**/*.js',
           'jasmine/spec/**/*.js'
         ],

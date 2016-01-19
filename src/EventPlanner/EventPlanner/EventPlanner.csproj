@@ -95,9 +95,11 @@
     <Content Include="jasmine\spec\PlayerSpec.js" />
     <Content Include="jasmine\spec\SpecHelper.js" />
     <Content Include="jasmine\spec\StarRatingSpec.js" />
+    <Content Include="jasmine\spec\TodoSpec.js" />
     <Content Include="jasmine\src\AjaxForm.js" />
     <Content Include="jasmine\src\Player.js" />
     <Content Include="jasmine\src\Song.js" />
+    <Content Include="jasmine\src\StarRating.js" />
     <Content Include="karma.conf.js" />
     <Content Include="Web.config" />
   </ItemGroup>
