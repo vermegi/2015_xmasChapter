@@ -94,6 +94,7 @@
     <Content Include="jasmine\spec\AjaxFormSpec.js" />
     <Content Include="jasmine\spec\PlayerSpec.js" />
     <Content Include="jasmine\spec\SpecHelper.js" />
+    <Content Include="jasmine\spec\StarRatingSpec.js" />
     <Content Include="jasmine\src\AjaxForm.js" />
     <Content Include="jasmine\src\Player.js" />
     <Content Include="jasmine\src\Song.js" />
