@@ -14,6 +14,8 @@
         files: [
           'Scripts/lib/jquery/dist/jquery.js',
           'Scripts/lib/knockout.js',
+          'Scripts/lib/angular.js',
+          'Scripts/lib/angular-mocks.js',
           'jasmine/src/**/*.js',
           'jasmine/spec/**/*.js'
         ],
